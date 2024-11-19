@@ -12,3 +12,4 @@ def synthesize(text, lang, filename):
     #raise RuntimeError("FAIL! You need to change this function so that it works!")
     tts = gtts.gTTs(text,lang=lang)
     tts.save(filename)
+    
